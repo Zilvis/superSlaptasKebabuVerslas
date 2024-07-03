@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restoranu rezervacijos sistema</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="/"><img class="logo" src="./img/logo.png"/></a>
+    <video autoplay muted loop id="myVideo">
+        <source src="./video/video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+     
+<div class="main-content">
+    
+    <a href="#">
+        <div class="food">
+            <img src="./img/burger.png">
+            <h1>Burngeriukas</h1>
+        </div>
+    </a>
+
+    <a href="#">
+    <div class="food">
+        <img src="./img/burger.png">
+        <h1>Burngeriukas</h1>
+    </div>
+    </a>
+
+    <a href="#">
+        <div class="food">
+            <img src="./img/burger.png">
+            <h1>Burngeriukas</h1>
+        </div>
+    </a>
+
+    <a href="#">
+        <div class="food">
+            <img src="./img/burger.png">
+            <h1>Burngeriukas</h1>
+        </div>
+    </a>
+
+    <a href="#">
+        <div class="food">
+            <img src="./img/burger.png">
+            <h1>Burngeriukas</h1>
+        </div>
+    </a>
+
+    <a href="#">
+        <div class="food">
+            <img src="./img/burger.png">
+            <h1>Burngeriukas</h1>
+        </div>
+    </a>
+
+    <a href="#">
+        <div class="food">
+            <img src="./img/burger.png">
+            <h1>Burngeriukas</h1>
+        </div>
+    </a>
+
+    <a href="#">
+        <div class="food">
+            <img src="./img/burger.png">
+            <h1>Burngeriukas</h1>
+        </div>
+    </a>
+
+</div>
+
+<script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+    
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+    
+
+</body>
+
+<footer>
+    <nav>
+        <ul>
+           <li><a href="/">Pagrindinis</a></li>
+           <li><a href="contact.html">Kontaktai</a></li>
+           <li><a href="about.html">Apie mus</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</html>

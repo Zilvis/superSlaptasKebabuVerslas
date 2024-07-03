@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restoranu rezervacijos sistema</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <a href="/"><img class="logo" src="./img/logo.png"/></a>
+    <video autoplay muted loop id="myVideo">
+        <source src="./video/video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+    </video>
+     
+    <img style="display: block; margin-left: auto; margin-right: auto; border-radius: 5px; max-width: 50%;" src="https://www.hesburger.com/clients/hesburger/mellow_internal/imagefolder/en//generated/liiketoiminta1440x669c_60.jpg"/>
+<div class="main-content-about">
+        <div class="main-content-about-card">
+            <h1>Apie mus</h1>
+            <p>Hesburger's delicious history dates back to 1966 when Heikki Salmela and his wife Kirsti founded Kievari Grilli in Naantali. In the 1970s, the hard-working entrepreneurs set their sights on Turku where the budding company enjoyed enormous popularity among the locals, particularly at a location known as Puutorin Grilli.
+
+                In the 1980s, fast food gained an even stronger presence in Finland, with honest-to-goodness fast food restaurants becoming an integral part of the street scene. This new trend also resulted in the first Hesburger restaurant which was opened in 1980 in the then-new Hansa shopping centre.
+                
+                The secrets behind the success have always been delicious food and hard work.</p>
+        </div>
+
+</div>
+
+
+
+<script>
+    var video = document.getElementById("myVideo");
+    var btn = document.getElementById("myBtn");
+    
+    function myFunction() {
+      if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+      } else {
+        video.pause();
+        btn.innerHTML = "Play";
+      }
+    }
+    </script>
+    
+
+</body>
+
+<footer>
+    <nav>
+        <ul>
+           <li><a href="/">Pagrindinis</a></li>
+           <li><a href="contact.html">Kontaktai</a></li>
+           <li><a href="about.html">Apie mus</a></li>
+        </ul>
+    </nav>
+</footer>
+
+</html>
